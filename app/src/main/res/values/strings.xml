@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">DoList</string>
+    <!--Main Activity-->
+    <string name="no_task_available">You Dont have any Tasks</string>
+    <string name="no_task_des">No task available Image</string>
+    <string name="item_image_des">First Letter of Task in Image</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="normal_mode">Normal Mode</string>
+    <string name="coding_mode">Coding.....</string>
+    <string name="coding">Coding</string>
+    <string name="coding_break_over">Break Over Start Coding</string>
+    <string name="break_time">Break Time</string>
+    <string name="break_coding_over">Take a Break and Walk Around</string>
+    <!--AddTodo Activity-->
+    <string name="add_todo">Add Todo</string>
+    <string name="title">Title</string>
+    <string name="title_hint">Enter Title</string>
+    <string name="reminder">Reminder</string>
+    <string name="set_time">Set Time</string>
+    <string name="set_date">Set Date</string>
+    <string name="date_format">%d %s</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="at">\@</string>
+    <string name="notify_me">Notify Me</string>
+    <string name="description_hint">Enter Description (Optional)</string>
+    <string name="description">Description</string>
+    <string name="repeat_everyday">Everyday</string>
+    <string name="date_in_past">Reminder is set in Past and My Time Machine is Not Working</string>
+    <!---->
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="1dp"
+    app:cardCornerRadius="2dp"
+    android:layout_margin="8dp"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/todoListItemLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            >
+            <ImageView
+                android:id="@+id/todoListItemImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/item_image_des"
+                />
+                <TextView
+                    android:id="@+id/todoListItemTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Task Title"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:textColor="@android:color/black"
+                    />
+        </LinearLayout>
+</androidx.cardview.widget.CardView>
